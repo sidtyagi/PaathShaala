@@ -1,0 +1,31 @@
+R1 has a vrf TEST11
+R2 has a vrf TEST22
+
+R1 and R2 are ebgp beighbors for the address family ipv4 unicast
+R1 and R2 are ebgp neighbors for the address family vpnv4 unicast
+R2 has a static route pointing to null 0 interface for the prefix 100.0.0.0 as shown below
+
+On R2
+ip route vrf TEST22 100.0.0.0 255.0.0.0 null 0
+
+Using the below commands on R2:
+
+router bgp 2
+ address-family ipv4 vrf TEST_22 
+  redistribute static metric 10
+ exit-address-family
+Router#
+
+Refer the interpretation of the command here:
+https://networkengineering.stackexchange.com/questions/41325/redistribution-command?noredirect=1#comment64955_41325
+(i am redistributing all the static routes present in TEST_22 routing table into bgp with a metric of 10)
+
+
+Objective is to make R1 learn this static route:
+---this can be done in the following way
+--bring up the bgp vpnv4 neighborship between R1 and R2
+--On R2, the export route target, should be same as the import route target of R1
+
+
+	
+

@@ -1,0 +1,79 @@
+
+R2#
+R2#
+R2#sho run | sec router bgp
+router bgp 2
+ bgp log-neighbor-changes
+ neighbor 11.11.11.11 remote-as 1
+ neighbor 11.11.11.11 ebgp-multihop 2
+ neighbor 11.11.11.11 update-source Loopback0
+ !
+ address-family ipv4
+  neighbor 11.11.11.11 activate
+  no auto-summary
+  no synchronization
+ exit-address-family
+ !
+ address-family vpnv4
+  neighbor 11.11.11.11 activate
+  neighbor 11.11.11.11 send-community extended
+ exit-address-family
+ !
+ address-family ipv4 vrf TEST22
+  redistribute static metric 100
+  no synchronization
+ exit-address-family
+R2#
+R2#
+R2#sho ip bgp summ
+R2#sho ip bgp summary
+BGP router identifier 1.1.1.2, local AS number 2
+BGP table version is 1, main routing table version 1
+
+Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+11.11.11.11     4     1      68      70        1    0    0 00:54:37        0
+R2#
+R2#
+R2#sho ip bgp vpn
+R2#sho ip bgp vpnv4 vr
+R2#sho ip bgp vpnv4 vrf TEST22
+BGP table version is 4, local router ID is 1.1.1.2
+Status codes: s suppressed, d damped, h history, * valid, > best, i - internal,
+              r RIB-failure, S Stale
+Origin codes: i - IGP, e - EGP, ? - incomplete
+
+   Network          Next Hop            Metric LocPrf Weight Path
+Route Distinguisher: 2:2 (default for vrf TEST22)
+*> 100.0.0.0        0.0.0.0                100         32768 ?
+R2#
+R2#
+R2#sho run | sec vrf
+ip vrf TEST22
+ rd 2:2
+ route-target export 2:2
+ address-family ipv4 vrf TEST22
+  redistribute static metric 100
+  no synchronization
+ip route vrf TEST22 100.0.0.0 255.0.0.0 Null0
+R2#
+R2#sho ip bgp vpn
+R2#sho ip bgp vpnv4 al
+R2#sho ip bgp vpnv4 all summ
+R2#sho ip bgp vpnv4 all summary
+BGP router identifier 1.1.1.2, local AS number 2
+BGP table version is 4, main routing table version 4
+1 network entries using 140 bytes of memory
+1 path entries using 68 bytes of memory
+2/1 BGP path/bestpath attribute entries using 248 bytes of memory
+1 BGP extended community entries using 24 bytes of memory
+0 BGP route-map cache entries using 0 bytes of memory
+0 BGP filter-list cache entries using 0 bytes of memory
+Bitfield cache entries: current 1 (at peak 1) using 32 bytes of memory
+BGP using 512 total bytes of memory
+BGP activity 1/0 prefixes, 1/0 paths, scan interval 15 secs
+
+Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+11.11.11.11     4     1      71      73        4    0    0 00:57:28        0
+R2#
+R2#
+R2#

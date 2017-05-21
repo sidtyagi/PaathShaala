@@ -1,0 +1,243 @@
+R1#sho
+*Mar  1 00:19:48.855: %SYS-5-CONFIG_I: Configured from console by console
+R1#sho ip bgp vpn
+R1#sho ip bgp vpnv4 all sum
+R1#sho ip bgp vpnv4 all summary
+BGP router identifier 11.11.11.11, local AS number 1
+BGP table version is 1, main routing table version 1
+
+Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+22.22.22.22     4     2      17      16        1    0    0 00:03:18        0
+R1#conf t
+Enter configuration commands, one per line.  End with CNTL/Z.
+R1(config)#ip vrf TEST11
+R1(config-vrf)#route
+R1(config-vrf)#route-target im
+R1(config-vrf)#route-target import 2:2
+R1(config-vrf)#end
+R1#
+*Mar  1 00:20:32.703: %SYS-5-CONFIG_I: Configured from console by console
+R1#sho ip bgp vpnv4 all summary
+BGP router identifier 11.11.11.11, local AS number 1
+BGP table version is 1, main routing table version 1
+
+Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+22.22.22.22     4     2      19      18        1    0    0 00:04:04        0
+R1#sho ip bgp vpnv4 all summary
+BGP router identifier 11.11.11.11, local AS number 1
+BGP table version is 1, main routing table version 1
+
+Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+22.22.22.22     4     2      19      18        1    0    0 00:04:06        0
+R1#sho ip bgp vpnv4 all summary
+BGP router identifier 11.11.11.11, local AS number 1
+BGP table version is 1, main routing table version 1
+
+Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+22.22.22.22     4     2      19      18        1    0    0 00:04:07        0
+R1#
+R1#
+R1#
+R1#sho run | sec vrf
+ip vrf TEST11
+ rd 1:1
+ route-target import 2:2
+ address-family ipv4 vrf TEST11
+  no synchronization
+R1#
+R1#
+R1#sho ip bgp vpnv4 all summary
+BGP router identifier 11.11.11.11, local AS number 1
+BGP table version is 3, main routing table version 3
+2 network entries using 280 bytes of memory
+2 path entries using 136 bytes of memory
+2/1 BGP path/bestpath attribute entries using 248 bytes of memory
+1 BGP AS-PATH entries using 24 bytes of memory
+1 BGP extended community entries using 24 bytes of memory
+0 BGP route-map cache entries using 0 bytes of memory
+0 BGP filter-list cache entries using 0 bytes of memory
+BGP using 712 total bytes of memory
+BGP activity 2/0 prefixes, 2/0 paths, scan interval 15 secs
+
+Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+22.22.22.22     4     2      20      18        3    0    0 00:04:42        1
+R1#
+R1#
+R1#sho ip bgp vpnv4 all summary
+BGP router identifier 11.11.11.11, local AS number 1
+BGP table version is 3, main routing table version 3
+2 network entries using 280 bytes of memory
+2 path entries using 136 bytes of memory
+2/1 BGP path/bestpath attribute entries using 248 bytes of memory
+1 BGP AS-PATH entries using 24 bytes of memory
+1 BGP extended community entries using 24 bytes of memory
+0 BGP route-map cache entries using 0 bytes of memory
+0 BGP filter-list cache entries using 0 bytes of memory
+BGP using 712 total bytes of memory
+BGP activity 2/0 prefixes, 2/0 paths, scan interval 15 secs
+
+Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+22.22.22.22     4     2      20      18        3    0    0 00:04:45        1
+R1#sho ip bg
+R1#sho ip bgp vpn
+R1#sho ip bgp vpnv4 vr
+R1#sho ip bgp
+
+R1#sho ip bgp ?
+  A.B.C.D            Network in the BGP routing table to display
+  A.B.C.D/nn         IP prefix <network>/<length>, e.g., 35.0.0.0/8
+  all                All address families
+  cidr-only          Display only routes with non-natural netmasks
+  community          Display routes matching the communities
+  community-list     Display routes matching the community-list
+  dampening          Display detailed information about dampening
+  extcommunity-list  Display routes matching the extcommunity-list
+  filter-list        Display routes conforming to the filter-list
+  inconsistent-as    Display only routes with inconsistent origin ASs
+  injected-paths     Display all injected paths
+  ipv4               Address family
+  ipv6               Address family
+  labels             Display Labels for IPv4 NLRI specific information
+  neighbors          Detailed information on TCP and BGP neighbor connections
+  nsap               Address family
+  oer-paths          Display all oer controlled paths
+  paths              Path information
+  peer-group         Display information on peer-groups
+  pending-prefixes   Display prefixes pending deletion
+  prefix-list        Display routes matching the prefix-list
+  quote-regexp       Display routes matching the AS path "regular expression"
+
+R1#sho ip bgp vpnv4 vr
+R1#sho ip bgp vpnv4 vrf s
+R1#sho ip bgp vpnv4 vrf sal
+R1#sho ip bgp vpnv4 vrf s
+R1#sho ip bgp vpnv4 vrf ?
+  WORD  VPN Routing/Forwarding instance name
+
+R1#sho ip bgp vpnv4 vrf TEST11
+BGP table version is 3, local router ID is 11.11.11.11
+Status codes: s suppressed, d damped, h history, * valid, > best, i - internal,
+              r RIB-failure, S Stale
+Origin codes: i - IGP, e - EGP, ? - incomplete
+
+   Network          Next Hop            Metric LocPrf Weight Path
+Route Distinguisher: 1:1 (default for vrf TEST11)
+*> 100.0.0.0        22.22.22.22            100             0 2 ?
+R1#E{M'}T
+R1#p}
+R1#
+R1#
+R1#ter len 0
+R1#sho run | sec bgp
+router bgp 1
+ bgp log-neighbor-changes
+ neighbor 22.22.22.22 remote-as 2
+ neighbor 22.22.22.22 ebgp-multihop 2
+ neighbor 22.22.22.22 update-source Loopback0
+ !
+ address-family ipv4
+  neighbor 22.22.22.22 activate
+  no auto-summary
+  no synchronization
+ exit-address-family
+ !
+ address-family vpnv4
+  neighbor 22.22.22.22 activate
+  neighbor 22.22.22.22 send-community extended
+ exit-address-family
+ !
+ address-family ipv4 vrf TEST11
+  no synchronization
+ exit-address-family
+R1#
+R1#
+R1#sho run | sec vrf
+ip vrf TEST11
+ rd 1:1
+ route-target import 2:2
+ address-family ipv4 vrf TEST11
+  no synchronization
+R1#
+R1#
+R1#sho ip bgp sum
+R1#sho ip bgp summary
+BGP router identifier 11.11.11.11, local AS number 1
+BGP table version is 1, main routing table version 1
+
+Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+22.22.22.22     4     2      27      25        1    0    0 00:11:06        0
+R1#
+R1#sho ip bgp vpnv4 uni
+R1#sho ip bgp vpnv4 unic
+R1#sho ip bgp vpnv4 al
+R1#sho ip bgp vpnv4 all si
+R1#sho ip bgp vpnv4 all sum
+R1#sho ip bgp vpnv4 all summary
+BGP router identifier 11.11.11.11, local AS number 1
+BGP table version is 3, main routing table version 3
+2 network entries using 280 bytes of memory
+2 path entries using 136 bytes of memory
+2/1 BGP path/bestpath attribute entries using 248 bytes of memory
+1 BGP AS-PATH entries using 24 bytes of memory
+1 BGP extended community entries using 24 bytes of memory
+0 BGP route-map cache entries using 0 bytes of memory
+0 BGP filter-list cache entries using 0 bytes of memory
+BGP using 712 total bytes of memory
+BGP activity 2/0 prefixes, 2/0 paths, scan interval 15 secs
+
+Neighbor        V    AS MsgRcvd MsgSent   TblVer  InQ OutQ Up/Down  State/PfxRcd
+22.22.22.22     4     2      27      25        3    0    0 00:11:25        1
+R1#
+R1#sho ip bgp vrf
+R1#sho ip bgp vpn
+R1#sho ip bgp vpnv4 vrf u
+R1#sho ip bgp vpnv4 vrf TEST11 summ
+R1#sho ip bgp vpnv4 vrf TEST11 summary
+
+R1#sho ip bgp vpnv4 vrf TEST11 summary
+
+R1#
+R1#
+R1#sho ip route
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+C    1.0.0.0/8 is directly connected, FastEthernet0/0
+S    22.0.0.0/8 is directly connected, FastEthernet0/0
+C    11.0.0.0/8 is directly connected, Loopback0
+R1#
+R1#sho ip route vr
+R1#sho ip route vrf TEST11
+
+Routing Table: TEST11
+Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
+       D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, su - IS-IS summary, L1 - IS-IS level-1, L2 - IS-IS level-2
+       ia - IS-IS inter area, * - candidate default, U - per-user static route
+       o - ODR, P - periodic downloaded static route
+
+Gateway of last resort is not set
+
+B    100.0.0.0/8 [20/100] via 22.22.22.22, 00:07:57
+R1#
+R1#sho ip bgp vpn
+R1#sho ip bgp vpnv4 vr
+R1#sho ip bgp vpnv4 vrf TEST11
+BGP table version is 3, local router ID is 11.11.11.11
+Status codes: s suppressed, d damped, h history, * valid, > best, i - internal,
+              r RIB-failure, S Stale
+Origin codes: i - IGP, e - EGP, ? - incomplete
+
+   Network          Next Hop            Metric LocPrf Weight Path
+Route Distinguisher: 1:1 (default for vrf TEST11)
+*> 100.0.0.0        22.22.22.22            100             0 2 ?
+R1#

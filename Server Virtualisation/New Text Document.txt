@@ -1,0 +1,58 @@
+++In the attached jpg, you observe 2 portions
+++The portion above is the UCS part, while the portion below is the GUI part
+++Every blade(which is a physical entity) of the UCS can be half width or 
+full width
+++There is nothing different in the functionality of the blade,it's just
+a regular server; it's role is same as any other regular PC,it takes
+in memory,it takes in CPU
+++The other component of the blade themselves is the Adapters
+/or Mezzanine adapters/the virtual interface cards or VICs
+
+++What is VIC?
+--is a combination of both the network card and the storage HBA
+but it's plugged directly into the motherboard of the server
+(this is not the case in Rack Mount server,where we manually plug the PCI 
+card in(for Fibre channel HBA )--but since blade servers are a different 
+form factor--we don't plug the cable directly into the blade themselves
+--instead the connectivity happens on the backend of the chassis,when u plug
+the server in the pins on the backplane of the chassis are gonna connect
+to the actual blade server which is then gonna connect to the 
+virtual interface card
+
+--logically this particular vic card is like plugging
+in 256 physical NICs into the server--now whether u are 
+gonna use that depends on the underlying virtualisation
+environment, u cud deliver to OS 1 network card
+or multiple nw cards
+
+--the point being we are not only virtualising the
+connectivity to the server(i.e.we don't have to put
+physical cables into it any more to talk
+to the n/w adapter but from the server down to the
+underlying OS, we r gonna control how many
+virtual adapters or vNICS or vHBAs for the LAN 
+connectivity and the SAN connectivity that we 
+send to the underlying OS
+
+--A vNIC is assigned a MAC address, each mac
+address corresponds with a single virtual NIC, which is
+used by the virtual machine
+
+--Compute nodes (e.g B200 blade)
+provide compute(CPU/RAM) and networking in the form of B200 M4,C220 M4
+(Server virtualization makes it possible for 
+the os of a physical server to run on a virtual layer(the hypervisor)
+--this allows u to run multiple VMs,each with their own OS, on the same
+physical layer
+
+++In the jpg shown,we have vmnics
+--VMNIC is a real physical interface on teh ESXi host(hypervisor)
+--we have the VMNIC0 - 5
+
+++we can have all the VMNICS going downstream to 1 virtual switch or to different
+virtual switches
+++in the fig shown, 2 vmnics are going to vswitch1 and 3 vmnics are going to
+vswitch2
+++from the vswitch, vmk0 is used for kernel
+++other ports can have vm connected to them
+

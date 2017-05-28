@@ -16,6 +16,11 @@ def create_dhcp_mapping(f_name):
 def ping_dest(ip):
     os.system('ping '+ip)
 
+def traceroute(ip):
+	os.system('traceroute '+ip)
+
+
+
 if __name__=='__main__':
     
     dhcp_mapping=create_dhcp_mapping('Mapping.txt')
@@ -28,3 +33,4 @@ if __name__=='__main__':
         dhcp_server=dhcp_mapping[region_code]
         print 'the corresponding dhcp server %s'%dhcp_server
         ping_dest(dhcp_server)
+		traceroute(dhcp_server)

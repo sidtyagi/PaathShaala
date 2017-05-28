@@ -17,6 +17,7 @@ def ping_dest(ip):
     os.system('ping '+ip)
 
 def traceroute(ip):
+	'''initiate a traceroute to the destination ip passed as an argument'''
 	os.system('traceroute '+ip)
 
 

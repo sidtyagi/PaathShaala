@@ -2,7 +2,7 @@ import paramiko
 ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
 #ssh.connect('127.0.0.1', username='jesse',password='lol')
-ssh.connect(ip, username='rjil', password='Rjil123', look_for_keys=False)
+ssh.connect(ip, username='username', password='pwd', look_for_keys=False)
 remote_conn = self.ssh.invoke_shell()
 
 #---to send a command------#

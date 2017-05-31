@@ -1,0 +1,20 @@
+import paramiko
+ssh = paramiko.SSHClient()
+ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
+#ssh.connect('127.0.0.1', username='jesse',password='lol')
+ssh.connect(ip, username='rjil', password='Rjil123', look_for_keys=False)
+remote_conn = self.ssh.invoke_shell()
+
+#---to send a command------#
+remote_conn.send('term len 0\r')
+
+
+#---to read a snippet from the cli---#
+def read_very_eager(remote_conn):
+        final_str = ''
+        while remote_conn.recv_ready():
+            final_str += remote_conn.recv(1)
+        return final_str
+
+op=read_very_eager(remote_conn)
+print op

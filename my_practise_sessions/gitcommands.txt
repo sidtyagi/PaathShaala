@@ -1,0 +1,344 @@
+git clone is just a one time path
+First time when we bring git repo from the web to our desktop(ie local client) very first time we do a git clone
+git branch - gives master and other branch
+* - shows which branch we are currently in
+$ cd test_10_06_2018/
+
+
+
+etyanis@5CG5091YTY MINGW64 ~
+$ pwd
+/c/Users/etyanis
+
+etyanis@5CG5091YTY MINGW64 ~
+$ mkdir test_10_06_2018    -----right -click create new folder
+
+etyanis@5CG5091YTY MINGW64 ~
+$ cd
+
+etyanis@5CG5091YTY MINGW64 ~
+$ cd test_10_06_2018/         -----change to dir
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018
+$ pwd
+/c/Users/etyanis/test_10_06_2018
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018
+$ git clone https://github.com/sidtyagi/PaathShaala.git
+Cloning into 'PaathShaala'...
+remote: Enumerating objects: 71, done.
+remote: Total 71 (delta 0), reused 0 (delta 0), pack-reused 71
+Unpacking objects: 100% (71/71), done.
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018
+$ git branch      ---------to check whether current directory is git repo
+fatal: not a git repository (or any of the parent directories): .git
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018
+$ cd PaathShaala/
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ git branch
+* master
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ git pull
+Already up to date.
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ etyanis@5CG5091YTY MINGW64 ~
+/c/Users/etyanis
+
+etyanis@5CG5091YTY MINGW64 ~
+$ mkdir test_10_06_2018
+
+etyanis@5CG5091YTY MINGW64 ~
+$ cd
+
+etyanis@5CG5091YTY MINGW64 ~
+$ cd test_10_06_2018/
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018
+$ pwd
+/c/Users/etyanis/test_10_06_2018
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018
+$ git clone https://github.com/sidtyagi/PaathShaala.git
+Cloning into 'PaathShaala'...
+remote: Enumerating objects: 71, done.
+remote: Total 71 (delta 0), reused 0 (delta 0), pack-reused 71
+Unpacking objects: 100% (71/71), done.
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018
+$ git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018
+$ cd PaathShaala/
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ git branch
+* master
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ git pull
+Already up to date.
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$
+bash: etyanis@5CG5091YTY: command not found
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ $ pwd
+bash: $: command not found
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ /c/Users/etyanis
+bash: /c/Users/etyanis: Is a directory
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ etyanis@5CG5091YTY MINGW64 ~
+bash: etyanis@5CG5091YTY: command not found
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ $ mkdir test_10_06_2018
+bash: $: command not found
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ etyanis@5CG5091YTY MINGW64 ~
+bash: etyanis@5CG5091YTY: command not found
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ $ cd
+bash: $: command not found
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ etyanis@5CG5091YTY MINGW64 ~
+bash: etyanis@5CG5091YTY: command not found
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ $ cd test_10_06_2018/
+bash: $: command not found
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018
+bash: etyanis@5CG5091YTY: command not found
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ $ pwd
+bash: $: command not found
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ /c/Users/etyanis/test_10_06_2018
+bash: /c/Users/etyanis/test_10_06_2018: Is a directory
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018
+bash: etyanis@5CG5091YTY: command not found
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ $ git clone https://github.com/sidtyagi/PaathShaala.git
+bash: $: command not found
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ Cloning into 'PaathShaala'...
+bash: Cloning: command not found
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ remote: Enumerating objects: 71, done.
+bash: remote:: command not found
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ remote: Total 71 (delta 0), reused 0 (delta 0), pack-reused 71
+bash: syntax error near unexpected token `('
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ Unpacking objects: 100% (71/71), done.
+bash: syntax error near unexpected token `('
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018
+bash: etyanis@5CG5091YTY: command not found
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ $ git branch
+bash: $: command not found
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ fatal: not a git repository (or any of the parent directories): .git
+bash: syntax error near unexpected token `('
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018
+bash: etyanis@5CG5091YTY: command not found
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ $ cd PaathShaala/
+bash: $: command not found
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+bash: syntax error near unexpected token `('
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ $ git branch
+bash: $: command not found
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ * master
+bash: Advertising vrf prefixes: command not found
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+bash: syntax error near unexpected token `('
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ $ git pull
+
+bash: $: command not found
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ Already up to date.
+bash: Already: command not found
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+bash: syntax error near unexpected token `('
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ $
+bash: $: command not found
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ git checkout -b nishant_test_branch
+Switched to a new branch 'nishant_test_branch'
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git branch
+  master
+* nishant_test_branch
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git status
+On branch nishant_test_branch
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        my_practise_sessions/
+
+nothing added to commit but untracked files present (use "git add" totrack)
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git add  my_practise_sessions/
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git status
+On branch nishant_test_branch
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   my_practise_sessions/Test 1.txt
+
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git commit -m "i am fortunate, this is my first commit"
+[nishant_test_branch c7de081] i am fortunate, this is my first commit
+ Committer: Nishant Tyagi T <nishant.t.tyagi@ericsson.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 insertions(+)
+ create mode 100644 my_practise_sessions/Test 1.txt
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git status
+On branch nishant_test_branch
+nothing to commit, working tree clean
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ git branch
+* master
+  nishant_test_branch
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ git checkout nishant_test_branch
+Switched to branch 'nishant_test_branch'
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git branch
+  master
+* nishant_test_branch
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git remote -v
+origin  https://github.com/sidtyagi/PaathShaala.git (fetch)
+origin  https://github.com/sidtyagi/PaathShaala.git (push)
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git push https://github.com/sidtyagi/PaathShaala.git
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 371 bytes | 185.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+remote:
+remote: Create a pull request for 'nishant_test_branch' on GitHub by visiting:
+remote:      https://github.com/sidtyagi/PaathShaala/pull/new/nishant_test_branch
+remote:
+To https://github.com/sidtyagi/PaathShaala.git
+ * [new branch]      nishant_test_branch -> nishant_test_branch
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git remote -v

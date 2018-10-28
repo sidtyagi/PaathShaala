@@ -1,0 +1,6 @@
+C:\Users\sityagi\Desktop\Study Materials\Learning\MOOCS\Udemy C#\Section2\StopwatchProject\StopwatchProject\bin\Debug\StopwatchProject.exe.config
+C:\Users\sityagi\Desktop\Study Materials\Learning\MOOCS\Udemy C#\Section2\StopwatchProject\StopwatchProject\bin\Debug\StopwatchProject.exe
+C:\Users\sityagi\Desktop\Study Materials\Learning\MOOCS\Udemy C#\Section2\StopwatchProject\StopwatchProject\bin\Debug\StopwatchProject.pdb
+C:\Users\sityagi\Desktop\Study Materials\Learning\MOOCS\Udemy C#\Section2\StopwatchProject\StopwatchProject\obj\Debug\StopwatchProject.csprojResolveAssemblyReference.cache
+C:\Users\sityagi\Desktop\Study Materials\Learning\MOOCS\Udemy C#\Section2\StopwatchProject\StopwatchProject\obj\Debug\StopwatchProject.exe
+C:\Users\sityagi\Desktop\Study Materials\Learning\MOOCS\Udemy C#\Section2\StopwatchProject\StopwatchProject\obj\Debug\StopwatchProject.pdb

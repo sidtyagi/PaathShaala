@@ -1,0 +1,634 @@
+GIT BASH
+etyanis@5CG5091YTY MINGW64 /
+$ pwd
+/
+
+etyanis@5CG5091YTY MINGW64 /
+$ pwd
+/
+
+etyanis@5CG5091YTY MINGW64 /
+$ pwd
+/
+
+etyanis@5CG5091YTY MINGW64 /
+$ cd Nish_Projects_Datacamp/
+bash: cd: Nish_Projects_Datacamp/: No such file or directory
+
+etyanis@5CG5091YTY MINGW64 /
+$ cd C:\Nish_Projects_Datacamp/
+
+etyanis@5CG5091YTY MINGW64 /c/Nish_Projects_Datacamp
+$ pwd
+/c/Nish_Projects_Datacamp
+
+etyanis@5CG5091YTY MINGW64 /c/Nish_Projects_Datacamp
+$ git clone https://github.com/tyagi-nishant/Nishant-Datacamp-Projects.git
+Cloning into 'Nishant-Datacamp-Projects'...
+warning: You appear to have cloned an empty repository.
+
+etyanis@5CG5091YTY MINGW64 /c/Nish_Projects_Datacamp
+$ git brancg
+git: 'brancg' is not a git command. See 'git --help'.
+
+The most similar command is
+        branch
+
+etyanis@5CG5091YTY MINGW64 /c/Nish_Projects_Datacamp
+$ git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+etyanis@5CG5091YTY MINGW64 /c/Nish_Projects_Datacamp
+$ git pull
+fatal: not a git repository (or any of the parent directories): .git
+
+etyanis@5CG5091YTY MINGW64 /c/Nish_Projects_Datacamp
+$ mkdir C:\Nish_Projects_Datacamp\
+>
+
+etyanis@5CG5091YTY MINGW64 /c/Nish_Projects_Datacamp
+$ pwd
+/c/Nish_Projects_Datacamp
+
+etyanis@5CG5091YTY MINGW64 /c/Nish_Projects_Datacamp
+$ git push
+fatal: not a git repository (or any of the parent directories): .git
+
+etyanis@5CG5091YTY MINGW64 /c/Nish_Projects_Datacamp
+$ git pull
+fatal: not a git repository (or any of the parent directories): .git
+
+etyanis@5CG5091YTY MINGW64 /c/Nish_Projects_Datacamp
+$ git checkout master
+fatal: not a git repository (or any of the parent directories): .git
+
+etyanis@5CG5091YTY MINGW64 /c/Nish_Projects_Datacamp
+$ pwd
+/c/Nish_Projects_Datacamp
+
+etyanis@5CG5091YTY MINGW64 /c/Nish_Projects_Datacamp
+$ cd test_10_06_2018/
+bash: cd: test_10_06_2018/: No such file or directory
+
+etyanis@5CG5091YTY MINGW64 /c/Nish_Projects_Datacamp
+$ cd C:\Users\etyanis\test_10_06_2018\
+> pwd
+bash: cd: C:Usersetyanistest_10_06_2018pwd: No such file or directory
+
+etyanis@5CG5091YTY MINGW64 /c/Nish_Projects_Datacamp
+$ pwd
+/c/Nish_Projects_Datacamp
+
+etyanis@5CG5091YTY MINGW64 /c/Nish_Projects_Datacamp
+$ cd C:\Users\etyanis\test_10_06_2018/
+bash: cd: C:Usersetyanistest_10_06_2018/: No such file or directory
+
+etyanis@5CG5091YTY MINGW64 /c/Nish_Projects_Datacamp
+$ cd C:\Users\etyanis\test_10_06_2018
+bash: cd: C:Usersetyanistest_10_06_2018: No such file or directory
+
+etyanis@5CG5091YTY MINGW64 /c/Nish_Projects_Datacamp
+$ cd C:\Users\etyanis\
+>
+bash: cd: C:Usersetyanis: No such file or directory
+
+etyanis@5CG5091YTY MINGW64 /c/Nish_Projects_Datacamp
+$ cd C:\Users\etyanis
+bash: cd: C:Usersetyanis: No such file or directory
+
+etyanis@5CG5091YTY MINGW64 /c/Nish_Projects_Datacamp
+$ cd C:\
+>
+
+etyanis@5CG5091YTY MINGW64 /c
+$ C:\Users\etyanis\test_10_06_2018\
+>
+bash: C:Usersetyanistest_10_06_2018: command not found
+
+etyanis@5CG5091YTY MINGW64 /c
+$ cd C:\Users\
+>
+
+etyanis@5CG5091YTY MINGW64 /c/Users
+$ git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+etyanis@5CG5091YTY MINGW64 /c/Users
+$ cd C:\Users\etyanis\
+>
+bash: cd: C:Usersetyanis: No such file or directory
+
+etyanis@5CG5091YTY MINGW64 /c/Users
+$ cd C:\Users\etyanis
+bash: cd: C:Usersetyanis: No such file or directory
+
+etyanis@5CG5091YTY MINGW64 /c/Users
+$ pwd
+/c/Users
+
+etyanis@5CG5091YTY MINGW64 /c/Users
+$ cd etyanis
+
+etyanis@5CG5091YTY MINGW64 ~
+$ pwd
+/c/Users/etyanis
+
+etyanis@5CG5091YTY MINGW64 ~
+$ git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+etyanis@5CG5091YTY MINGW64 ~
+$ cd test_10_06_2018
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018
+$ git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018
+$ pwd
+/c/Users/etyanis/test_10_06_2018
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018
+$ git branch
+fatal: not a git repository (or any of the parent directories): .git
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018
+$ cd PaathShaala
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git branch
+
+  master
+* nishant_test_branch
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ pwd
+/c/Users/etyanis/test_10_06_2018/PaathShaala
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git branch
+  master
+* nishant_test_branch
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ pwd
+/c/Users/etyanis/test_10_06_2018/PaathShaala
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ git branch
+* master
+  nishant_test_branch
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ ^C
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ git checkout my_practise_sessions
+error: pathspec 'my_practise_sessions' did not match any file(s) known to git
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ git branch
+* master
+  nishant_test_branch
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ git checkout nishant_test_branch
+Switched to branch 'nishant_test_branch'
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git branch
+  master
+* nishant_test_branch
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git status
+On branch nishant_test_branch
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    my_practise_sessions/Test 1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        my_practise_sessions/C-2_Python_Week2.py
+        my_practise_sessions/Test 1 - Copy.txt
+        my_practise_sessions/Test 1_13Oct.txt
+        my_practise_sessions/git commands.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git remote -v
+origin  https://github.com/sidtyagi/PaathShaala.git (fetch)
+origin  https://github.com/sidtyagi/PaathShaala.git (push)
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ ^C
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git add  my_practise_sessions/C-2_Python_Week2.py
+warning: LF will be replaced by CRLF in my_practise_sessions/C-2_Python_Week2.py.
+The file will have its original line endings in your working directory
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git add my_practise_sessions/Test 1 - Copy.txt
+fatal: pathspec 'my_practise_sessions/Test' did not match any files
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git add  my_practise_sessions/Test 1_13Oct.txt
+fatal: pathspec 'my_practise_sessions/Test' did not match any files
+a
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git status
+On branch nishant_test_branch
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   my_practise_sessions/C-2_Python_Week2.py
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    my_practise_sessions/Test 1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        my_practise_sessions/Test 1 - Copy.txt
+        my_practise_sessions/Test 1_13Oct.txt
+        my_practise_sessions/git commands.txt
+
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git add my_practise_sessions/Test 1 - Copy.txt
+fatal: pathspec 'my_practise_sessions/Test' did not match any files
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git add my_practise_sessions/Test my_practise_sessions
+fatal: pathspec 'my_practise_sessions/Test' did not match any files
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git status
+On branch nishant_test_branch
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   my_practise_sessions/C-2_Python_Week2.py
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    my_practise_sessions/Test 1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        my_practise_sessions/Test1Copy.txt
+        my_practise_sessions/Test1_13Oct.txt
+        my_practise_sessions/gitcommands.txt
+
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git add my_practise_sessions/Test1Copy.txt
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git status
+On branch nishant_test_branch
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   my_practise_sessions/C-2_Python_Week2.py
+        new file:   my_practise_sessions/Test1Copy.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    my_practise_sessions/Test 1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        my_practise_sessions/Test1_13Oct.txt
+        my_practise_sessions/gitcommands.txt
+
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git my_practise_sessions/Test1_13Oct.txt
+git: 'my_practise_sessions/Test1_13Oct.txt' is not a git command. See 'git --help'.
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git add my_practise_sessions/Test1_13Oct.txt
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git add  my_practise_sessions/gitcommands.txt
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git status
+On branch nishant_test_branch
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   my_practise_sessions/C-2_Python_Week2.py
+        new file:   my_practise_sessions/Test1Copy.txt
+        new file:   my_practise_sessions/Test1_13Oct.txt
+        new file:   my_practise_sessions/gitcommands.txt
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    my_practise_sessions/Test 1.txt
+
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git commit -m "Updations 13 October"
+[nishant_test_branch 9a60a97] Updations 13 October
+ Committer: Nishant Tyagi T <nishant.t.tyagi@ericsson.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 4 files changed, 734 insertions(+)
+ create mode 100644 my_practise_sessions/C-2_Python_Week2.py
+ create mode 100644 my_practise_sessions/Test1Copy.txt
+ create mode 100644 my_practise_sessions/Test1_13Oct.txt
+ create mode 100644 my_practise_sessions/gitcommands.txt
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git status
+On branch nishant_test_branch
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    my_practise_sessions/Test 1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git push
+fatal: The current branch nishant_test_branch has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin nishant_test_branch
+
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$  git push --set-upstream origin nishant_test_branch
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (6/6), 4.81 KiB | 1.20 MiB/s, done.
+Total 6 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/sidtyagi/PaathShaala.git
+   c7de081..9a60a97  nishant_test_branch -> nishant_test_branch
+Branch 'nishant_test_branch' set up to track remote branch 'nishant_test_branch' from 'origin'.
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git remote -v
+origin  https://github.com/sidtyagi/PaathShaala.git (fetch)
+origin  https://github.com/sidtyagi/PaathShaala.git (push)
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git status
+On branch nishant_test_branch
+Your branch is up to date with 'origin/nishant_test_branch'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    my_practise_sessions/Test 1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git status
+On branch nishant_test_branch
+Your branch is up to date with 'origin/nishant_test_branch'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    my_practise_sessions/Test 1.txt
+        modified:   my_practise_sessions/Test1_13Oct.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git add  my_practise_sessions/Test1_13Oct.txt
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git commit "Changed"
+error: pathspec 'Changed' did not match any file(s) known to git
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git commit -m "Changed"
+[nishant_test_branch 035b1a8] Changed
+ Committer: Nishant Tyagi T <nishant.t.tyagi@ericsson.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (4/4), 346 bytes | 86.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/sidtyagi/PaathShaala.git
+   9a60a97..035b1a8  nishant_test_branch -> nishant_test_branch
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git branch
+  master
+* nishant_test_branch
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git status
+On branch nishant_test_branch
+Your branch is up to date with 'origin/nishant_test_branch'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    my_practise_sessions/Test 1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git branch
+  master
+* nishant_test_branch
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git checkout master
+Deletion of directory 'my_practise_sessions' failed. Should I try again? (y/n) n
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ git pull
+remote: Enumerating objects: 2, done.
+remote: Counting objects: 100% (2/2), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 2 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (2/2), done.
+From https://github.com/sidtyagi/PaathShaala
+   e879e0a..d557025  master     -> origin/master
+Updating e879e0a..d557025
+Fast-forward
+ my_practise_sessions/C-2_Python_Week2.py | 383 +++++++++++++++++++++++++++++++
+ my_practise_sessions/Test 1.txt          |   4 +
+ my_practise_sessions/Test1Copy.txt       |   4 +
+ my_practise_sessions/Test1_13Oct.txt     |   3 +
+ my_practise_sessions/gitcommands.txt     | 344 +++++++++++++++++++++++++++
+ 5 files changed, 738 insertions(+)
+ create mode 100644 my_practise_sessions/C-2_Python_Week2.py
+ create mode 100644 my_practise_sessions/Test 1.txt
+ create mode 100644 my_practise_sessions/Test1Copy.txt
+ create mode 100644 my_practise_sessions/Test1_13Oct.txt
+ create mode 100644 my_practise_sessions/gitcommands.txt
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ git checkout nishant_test_branch
+Switched to branch 'nishant_test_branch'
+Your branch is up to date with 'origin/nishant_test_branch'.
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git branch
+  master
+* nishant_test_branch
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git status
+On branch nishant_test_branch
+Your branch is up to date with 'origin/nishant_test_branch'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    my_practise_sessions/Test 1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git add  my_practise_sessions/Test 1.txt
+fatal: pathspec 'my_practise_sessions/Test' did not match any files
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git status
+On branch nishant_test_branch
+Your branch is up to date with 'origin/nishant_test_branch'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        deleted:    my_practise_sessions/Test 1.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git add my_practise_sessions
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git status
+On branch nishant_test_branch
+Your branch is up to date with 'origin/nishant_test_branch'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        deleted:    my_practise_sessions/Test 1.txt
+
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git commit -m "testing the delete of file"
+[nishant_test_branch 9f53eeb] testing the delete of file
+ Committer: Nishant Tyagi T <nishant.t.tyagi@ericsson.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 4 deletions(-)
+ delete mode 100644 my_practise_sessions/Test 1.txt
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ git branch
+* master
+  nishant_test_branch
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (master)
+$ git checkout nishant_test_branch
+Switched to branch 'nishant_test_branch'
+Your branch is ahead of 'origin/nishant_test_branch' by 1 commit.
+  (use "git push" to publish your local commits)
+
+etyanis@5CG5091YTY MINGW64 ~/test_10_06_2018/PaathShaala (nishant_test_branch)
+$

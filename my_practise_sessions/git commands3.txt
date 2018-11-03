@@ -1,0 +1,397 @@
+
+etyanis@5CG5091YTY MINGW64 /c/My_DataScience_Projects (master)
+$ pwd
+/c/My_DataScience_Projects
+
+etyanis@5CG5091YTY MINGW64 /c/My_DataScience_Projects (master)
+$ git branch
+* master
+
+etyanis@5CG5091YTY MINGW64 /c/My_DataScience_Projects (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Datacamp/A VISUAL HISTORY OF NOBEL PRIZE WINNERS/A Visual History of Nobel Prize Winners/datasets/nobel.csv
+        new file:   Datacamp/A VISUAL HISTORY OF NOBEL PRIZE WINNERS/A Visual History of Nobel Prize Winners/notebook.ipynb
+        new file:   Datacamp/DR. SEMMELWEIS AND THE DISCOVERY OF HANDWASHING/Dr. Semmelweis and the discovery of handwashing/datasets/ignaz_semmelweis_1860.jpeg
+        new file:   Datacamp/DR. SEMMELWEIS AND THE DISCOVERY OF HANDWASHING/Dr. Semmelweis and the discovery of handwashing/datasets/monthly_deaths.csv
+        new file:   Datacamp/DR. SEMMELWEIS AND THE DISCOVERY OF HANDWASHING/Dr. Semmelweis and the discovery of handwashing/datasets/project_image.png
+        new file:   Datacamp/DR. SEMMELWEIS AND THE DISCOVERY OF HANDWASHING/Dr. Semmelweis and the discovery of handwashing/datasets/yearly_deaths_by_clinic.csv
+        new file:   Datacamp/DR. SEMMELWEIS AND THE DISCOVERY OF HANDWASHING/Dr. Semmelweis and the discovery of handwashing/notebook.ipynb
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/adding-cells.gif
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/colors.csv
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/downloads_schema.png
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/lego-bricks.jpeg
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/notebook_inline.png
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/project_image.png
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/sets.csv
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/success-large.gif
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/notebook.ipynb
+        new file:   Others/_take data and convert to series.ipynb
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week1/Week1 no code.txt
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week2/Assignment2.ipynb
+        renamed:    _Coursera_dat/Course-2/C-2Week2_Assn.py -> _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week2/Assignment2.py
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week2/Week2.ipynb
+        renamed:    _Coursera_dat/Course-2/C-2Week2_Study.py -> _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week2/Week2.py
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/Adding animations.txt
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/Assignment3.ipynb
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/Assignment3.py
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/UnderstandingDistributionsThroughSampling.ipynb
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/UnderstandingDistributionsThroughSampling.py
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/Week3.ipynb
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/Week3.py
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week4/Assignment4.ipynb
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week4/Assignment4.py
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week4/GOV_Budget_Provisions_2016-17_2018-19.csv
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week4/Week4.ipynb
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week4/Week4.py
+        deleted:    _Coursera_dat/tst.txt
+
+
+etyanis@5CG5091YTY MINGW64 /c/My_DataScience_Projects (master)
+$
+
+etyanis@5CG5091YTY MINGW64 /c/My_DataScience_Projects (master)
+$ git
+\usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+etyanis@5CG5091YTY MINGW64 /c/My_DataScience_Projects (master)
+$ \git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+etyanis@5CG5091YTY MINGW64 /c/My_DataScience_Projects (master)
+$
+
+etyanis@5CG5091YTY MINGW64 /c/My_DataScience_Projects (master)
+$ git
+usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone      Clone a repository into a new directory
+   init       Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add        Add file contents to the index
+   mv         Move or rename a file, a directory, or a symlink
+   reset      Reset current HEAD to the specified state
+   rm         Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect     Use binary search to find the commit that introduced a bug
+   grep       Print lines matching a pattern
+   log        Show commit logs
+   show       Show various types of objects
+   status     Show the working tree status
+
+grow, mark and tweak your common history
+   branch     List, create, or delete branches
+   checkout   Switch branches or restore working tree files
+   commit     Record changes to the repository
+   diff       Show changes between commits, commit and working tree, etc
+   merge      Join two or more development histories together
+   rebase     Reapply commits on top of another base tip
+   tag        Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch      Download objects and refs from another repository
+   pull       Fetch from and integrate with another repository or a local branch
+   push       Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+
+etyanis@5CG5091YTY MINGW64 /c/My_DataScience_Projects (master)
+$
+
+etyanis@5CG5091YTY MINGW64 /c/My_DataScience_Projects (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Datacamp/A VISUAL HISTORY OF NOBEL PRIZE WINNERS/A Visual History of Nobel Prize Winners/datasets/nobel.csv
+        new file:   Datacamp/A VISUAL HISTORY OF NOBEL PRIZE WINNERS/A Visual History of Nobel Prize Winners/notebook.ipynb
+        new file:   Datacamp/DR. SEMMELWEIS AND THE DISCOVERY OF HANDWASHING/Dr. Semmelweis and the discovery of handwashing/datasets/ignaz_semmelweis_1860.jpeg
+        new file:   Datacamp/DR. SEMMELWEIS AND THE DISCOVERY OF HANDWASHING/Dr. Semmelweis and the discovery of handwashing/datasets/monthly_deaths.csv
+        new file:   Datacamp/DR. SEMMELWEIS AND THE DISCOVERY OF HANDWASHING/Dr. Semmelweis and the discovery of handwashing/datasets/project_image.png
+        new file:   Datacamp/DR. SEMMELWEIS AND THE DISCOVERY OF HANDWASHING/Dr. Semmelweis and the discovery of handwashing/datasets/yearly_deaths_by_clinic.csv
+        new file:   Datacamp/DR. SEMMELWEIS AND THE DISCOVERY OF HANDWASHING/Dr. Semmelweis and the discovery of handwashing/notebook.ipynb
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/adding-cells.gif
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/colors.csv
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/downloads_schema.png
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/lego-bricks.jpeg
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/notebook_inline.png
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/project_image.png
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/sets.csv
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/success-large.gif
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/notebook.ipynb
+        new file:   Others/_take data and convert to series.ipynb
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week1/Week1 no code.txt
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week2/Assignment2.ipynb
+        renamed:    _Coursera_dat/Course-2/C-2Week2_Assn.py -> _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week2/Assignment2.py
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week2/Week2.ipynb
+        renamed:    _Coursera_dat/Course-2/C-2Week2_Study.py -> _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week2/Week2.py
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/Adding animations.txt
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/Assignment3.ipynb
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/Assignment3.py
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/UnderstandingDistributionsThroughSampling.ipynb
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/UnderstandingDistributionsThroughSampling.py
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/Week3.ipynb
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/Week3.py
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week4/Assignment4.ipynb
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week4/Assignment4.py
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week4/GOV_Budget_Provisions_2016-17_2018-19.csv
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week4/Week4.ipynb
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week4/Week4.py
+        deleted:    _Coursera_dat/tst.txt
+
+
+etyanis@5CG5091YTY MINGW64 /c/My_DataScience_Projects (master)
+$ git add Datacamp/
+
+etyanis@5CG5091YTY MINGW64 /c/My_DataScience_Projects (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   Datacamp/A VISUAL HISTORY OF NOBEL PRIZE WINNERS/A Visual History of Nobel Prize Winners/datasets/nobel.csv
+        new file:   Datacamp/A VISUAL HISTORY OF NOBEL PRIZE WINNERS/A Visual History of Nobel Prize Winners/notebook.ipynb
+        new file:   Datacamp/DR. SEMMELWEIS AND THE DISCOVERY OF HANDWASHING/Dr. Semmelweis and the discovery of handwashing/datasets/ignaz_semmelweis_1860.jpeg
+        new file:   Datacamp/DR. SEMMELWEIS AND THE DISCOVERY OF HANDWASHING/Dr. Semmelweis and the discovery of handwashing/datasets/monthly_deaths.csv
+        new file:   Datacamp/DR. SEMMELWEIS AND THE DISCOVERY OF HANDWASHING/Dr. Semmelweis and the discovery of handwashing/datasets/project_image.png
+        new file:   Datacamp/DR. SEMMELWEIS AND THE DISCOVERY OF HANDWASHING/Dr. Semmelweis and the discovery of handwashing/datasets/yearly_deaths_by_clinic.csv
+        new file:   Datacamp/DR. SEMMELWEIS AND THE DISCOVERY OF HANDWASHING/Dr. Semmelweis and the discovery of handwashing/notebook.ipynb
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/adding-cells.gif
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/colors.csv
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/downloads_schema.png
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/lego-bricks.jpeg
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/notebook_inline.png
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/project_image.png
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/sets.csv
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/success-large.gif
+        new file:   Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/notebook.ipynb
+        new file:   Others/_take data and convert to series.ipynb
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week1/Week1 no code.txt
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week2/Assignment2.ipynb
+        renamed:    _Coursera_dat/Course-2/C-2Week2_Assn.py -> _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week2/Assignment2.py
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week2/Week2.ipynb
+        renamed:    _Coursera_dat/Course-2/C-2Week2_Study.py -> _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week2/Week2.py
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/Adding animations.txt
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/Assignment3.ipynb
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/Assignment3.py
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/UnderstandingDistributionsThroughSampling.ipynb
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/UnderstandingDistributionsThroughSampling.py
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/Week3.ipynb
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/Week3.py
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week4/Assignment4.ipynb
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week4/Assignment4.py
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week4/GOV_Budget_Provisions_2016-17_2018-19.csv
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week4/Week4.ipynb
+        new file:   _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week4/Week4.py
+        deleted:    _Coursera_dat/tst.txt
+
+
+etyanis@5CG5091YTY MINGW64 /c/My_DataScience_Projects (master)
+$ git commit -m "attempting to commit datacamp folder"
+[master 4480194] attempting to commit datacamp folder
+ Committer: Nishant Tyagi T <nishant.t.tyagi@ericsson.com>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 35 files changed, 55890 insertions(+), 4 deletions(-)
+ create mode 100644 Datacamp/A VISUAL HISTORY OF NOBEL PRIZE WINNERS/A Visual History of Nobel Prize Winners/datasets/nobel.csv
+ create mode 100644 Datacamp/A VISUAL HISTORY OF NOBEL PRIZE WINNERS/A Visual History of Nobel Prize Winners/notebook.ipynb
+ create mode 100644 Datacamp/DR. SEMMELWEIS AND THE DISCOVERY OF HANDWASHING/Dr. Semmelweis and the discovery of handwashing/datasets/ignaz_semmelweis_1860.jpeg
+ create mode 100644 Datacamp/DR. SEMMELWEIS AND THE DISCOVERY OF HANDWASHING/Dr. Semmelweis and the discovery of handwashing/datasets/monthly_deaths.csv
+ create mode 100644 Datacamp/DR. SEMMELWEIS AND THE DISCOVERY OF HANDWASHING/Dr. Semmelweis and the discovery of handwashing/datasets/project_image.png
+ create mode 100644 Datacamp/DR. SEMMELWEIS AND THE DISCOVERY OF HANDWASHING/Dr. Semmelweis and the discovery of handwashing/datasets/yearly_deaths_by_clinic.csv
+ create mode 100644 Datacamp/DR. SEMMELWEIS AND THE DISCOVERY OF HANDWASHING/Dr. Semmelweis and the discovery of handwashing/notebook.ipynb
+ create mode 100644 Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/adding-cells.gif
+ create mode 100644 Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/colors.csv
+ create mode 100644 Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/downloads_schema.png
+ create mode 100644 Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/lego-bricks.jpeg
+ create mode 100644 Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/notebook_inline.png
+ create mode 100644 Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/project_image.png
+ create mode 100644 Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/sets.csv
+ create mode 100644 Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/datasets/success-large.gif
+ create mode 100644 Datacamp/EXPLORING 67 YEARS OF LEGO/Exploring 67 years of LEGO/notebook.ipynb
+ create mode 100644 Others/_take data and convert to series.ipynb
+ create mode 100644 _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week1/Week1 no code.txt
+ create mode 100644 _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week2/Assignment2.ipynb
+ rename _Coursera_dat/{Course-2/C-2Week2_Assn.py => Course_Applied Data Science With Python/Course-2/Week2/Assignment2.py} (98%)
+ create mode 100644 _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week2/Week2.ipynb
+ rename _Coursera_dat/{Course-2/C-2Week2_Study.py => Course_Applied Data Science With Python/Course-2/Week2/Week2.py} (100%)
+ create mode 100644 _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/Adding animations.txt
+ create mode 100644 _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/Assignment3.ipynb
+ create mode 100644 _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/Assignment3.py
+ create mode 100644 _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/UnderstandingDistributionsThroughSampling.ipynb
+ create mode 100644 _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/UnderstandingDistributionsThroughSampling.py
+ create mode 100644 _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/Week3.ipynb
+ create mode 100644 _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week3/Week3.py
+ create mode 100644 _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week4/Assignment4.ipynb
+ create mode 100644 _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week4/Assignment4.py
+ create mode 100644 _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week4/GOV_Budget_Provisions_2016-17_2018-19.csv
+ create mode 100644 _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week4/Week4.ipynb
+ create mode 100644 _Coursera_dat/Course_Applied Data Science With Python/Course-2/Week4/Week4.py
+ delete mode 100644 _Coursera_dat/tst.txt
+
+etyanis@5CG5091YTY MINGW64 /c/My_DataScience_Projects (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+etyanis@5CG5091YTY MINGW64 /c/My_DataScience_Projects (master)
+$ pwd
+/c/My_DataScience_Projects
+
+etyanis@5CG5091YTY MINGW64 /c/My_DataScience_Projects (master)
+$ dir
+_Coursera_dat  Datacamp  desktop.ini  Others
+
+etyanis@5CG5091YTY MINGW64 /c/My_DataScience_Projects (master)
+$ cd add.
+bash: cd: add.: No such file or directory
+
+etyanis@5CG5091YTY MINGW64 /c/My_DataScience_Projects (master)
+$ git add .
+
+etyanis@5CG5091YTY MINGW64 /c/My_DataScience_Projects (master)
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+etyanis@5CG5091YTY MINGW64 /c/My_DataScience_Projects (master)
+$ git commit -m "trial 2"
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+etyanis@5CG5091YTY MINGW64 /c/My_DataScience_Projects (master)
+$ git push
+Enumerating objects: 57, done.
+Counting objects: 100% (57/57), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (47/47), done.
+Writing objects: 100% (51/51), 3.78 MiB | 10.00 KiB/s, done.
+Total 51 (delta 6), reused 0 (delta 0)
+remote: Resolving deltas: 100% (6/6), completed with 4 local objects.
+To https://github.com/tyagi-nishant/Data-Science-Proj-Sol.git
+   2ae8244..4480194  master -> master
+
+etyanis@5CG5091YTY MINGW64 /c/My_DataScience_Projects (master)
+$
